@@ -1,0 +1,526 @@
+@font-face{
+    font-family: 'Gadugi';
+    src: url('../шрифты/GADUGI_0.TTF') format('truetype');
+}
+@font-face{
+    font-family: 'GadugiBold';
+    src: url('../шрифты/GADUGIB_0.TTF') format('truetype');
+}
+@font-face{
+    font-family: 'Akademische';
+    src: url('../шрифты/Akademische_schmalfette.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'Times_New_Roman';
+    src: url('../шрифты/Times_New_Roman.ttf') format('truetype');
+}
+h1{
+    font-family: 'Akademische'; 
+    margin: 0;
+}
+h3,span{
+    font-family: 'GadugiBold';
+    margin: 0;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Gadugi';
+}
+p{
+    margin: 0;
+}
+.row{
+    margin: 0;
+}
+.container{
+    padding: 0 102px;
+}
+.navbar{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5)
+}
+.navbar-nav{
+    margin-right: 103px;
+}
+.navbar-nav > li+li{
+    margin-left: 30px;
+}
+.preview{
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 120px;
+}
+.preview .preview__title{
+    font-family: 'Akademische';
+    font-weight: 400;
+    color: #000;
+    font-size: 40px;
+}
+.preview .preview__subtitle{
+    font-family: 'Akademische';
+    font-weight: 400;
+    color: #000;
+    font-size: 24px;
+    margin: 0 0 66px 0;
+}
+.preview .preview__link{
+    color: #3ACAF8;
+    text-decoration: none;
+    justify-content: space-between;
+    font-size: 24px;
+    font-family: 'Akademische';
+}
+.preview .preview__dispatch{
+    font-family: 'Times_New_Roman';
+    border-bottom: 1px solid #C4C4C4;
+    width: 100%;
+}
+.preview .preview__name{
+    color: #ABABAB;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+}
+.preview .preview__date{
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
+}
+.preview .social .social__item{
+    text-decoration: none;
+}
+.preview .social .social__item:hover svg path{
+    fill: #7FC9FC;
+}
+
+.preview .social > .social__item + .social__item{
+    margin-left: 23px;
+}
+.preview .preview__social{
+    margin-top: 17px;
+}
+
+.preview  .description__item{
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+}
+.preview .description__margin{
+    margin-top: 56px;
+}
+.preview  .description__item span{
+    
+    color: #3ACAF8;
+    font-size: 24px;
+}
+.preview .product__img-margin{
+    margin: 40px 0 34px 0;
+}
+.preview .description_size span{
+    font-size: 24px;
+}
+.preview .preview__look-for{
+    margin: 90px 0 0 0;
+    
+}
+
+.preview .look-for-avoid{
+    padding: 0 90px;
+}
+.preview .look-for-avoid__title{
+    color: #000;
+    font-size: 24px;
+    margin: 0 0 17px 0;
+    text-align: left;
+}
+.preview .look-for-avoid__list{
+    padding: 0 0 0 18px;
+    margin: 0;
+}
+
+.preview .look-for-avoid__item{
+    text-align: left;
+}
+.look-for-avoid__item::marker{
+    color: #C4C4C4;
+    justify-content: space-between;
+}
+.preview .look-for__img{
+    margin: 10px 0 0 0 ;
+}
+.preview .look-for-avoid{
+    position: relative;
+}
+.preview .look-for-avoid__absolut-img{
+    position: absolute;
+   
+}
+.preview .look-for__absolut-img{
+    top: -40px;
+    left: 0;
+}
+.preview .avoid__absolut-img{
+    top: 0;
+    left: 0;
+}
+.preview .preview__avoid{
+    margin: 70px 0 0 0;
+}
+.preview .look-for__text{
+    padding: 20px 0 0 0;
+}
+
+.preview__conclusion{
+    margin-top: 80px;
+    height: auto;
+}
+
+.preview__conclusion .conclusion__title{
+    color: #454545;
+    font-size: 40px;
+}
+.preview__conclusion .conclusion__subtitle{
+    text-align: left;
+    font-family: 'Gadugi';
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 47px;
+}
+.preview .conclusion__subtitle span{
+    text-align: left;
+    font-family: 'Gadugi';
+    font-weight: 400;
+    font-size: 18px;
+    margin: 40px 0 0 0;
+    display: block;
+}
+.preview  .img-product{
+    position: relative;
+    margin: 40px 0 0 0;
+}
+.preview  .conclusion__img-product .img-product__img{
+    margin: 0 88px 0 0;
+}
+.preview  .img-product__img-rank{
+    position: absolute;
+    bottom: 0;
+    right: 25%;
+}
+.preview .customer-review__img__piple{
+    margin: 0 30px 0 0;
+}
+.preview .customer-review__link {
+    text-align: left;
+    padding: 70px 0 0 0;
+    
+}
+.preview .customer-review__link a{
+    color: #1F3A6F;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.additives{
+    background-color: #F0F0F0;
+    position: relative;
+    height: auto;
+    padding: 0 0 30px 0;
+    box-sizing: border-box;
+}
+.additives .additives__container{
+    position: relative;
+}
+
+.additives .additives__title{
+    width: 100%;
+    background-color: #67C957;
+    border-radius: 5px;
+    padding: 9px 0;
+    position: absolute;
+    top: -35px;
+}
+.additives .additives__title h1{
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+}
+
+.additives .additives__content{
+    width: 100%;
+    height: 100%;
+    padding: 110px 0 0 0;
+}
+.additives .additives__content > div + div{
+    margin-top: 30px;
+}
+
+.additives .additives__product-card{
+    background-color: #fff;
+    border: 0.5px solid #9E9E9E;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 10px 0 18px 0;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.additives .product-card__title{
+    padding-bottom: 5px;
+    border-bottom:1px solid #E4E4E4 ;
+    padding: 0 25px 5px 25px;
+}
+.additives .product-card__title__txt{
+    font-family: 'Roboto', sans-serif;
+}
+.additives .product-card__title__txt h3{
+    font-weight: 700;
+    font-size: 18px;
+}
+.additives .product-card__title__txt p{
+    font-weight: 400;
+    font-size: 12px;
+    margin: 20px 0 0 0;
+}
+.additives .additives__about-product{
+    padding: 10px 45px 15px 25px;
+    border-bottom:1px solid #E4E4E4 ;
+}
+
+
+.additives .ranking-wrapper__title{
+    font-size: 14px;
+    margin: 8px 0 0 0;
+}   
+
+.additives .about-product__ranking{
+    width: 97px;
+    height: 97px;
+    border-radius: 50%;
+    border: 7px solid #84D41D;
+    position: relative;
+    text-align: center;
+    padding: 20px 0 0 0;
+    margin: 0 auto;
+}
+.additives .about-product__ranking::before{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 13px;
+    left: -7px;
+    top: 43%;
+    background-color: #fff;
+}
+
+.additives .ranking__title{
+    color: #ABABAB;
+    font-size: 13px;
+}
+.additives .ranking__subtitle{
+    font-family: 'Akademische';
+    color: #000;
+    font-size: 18px;
+}
+.additives .about-product__grade{
+    text-align: center ;
+    margin: 10px 0 0 0;
+}
+.additives .grade__title{
+    font-size: 64px;
+}
+
+.additives .grade__subtitle{
+    font-size: 14px;
+}
+
+.additives .additives__evaluation{
+    padding: 13px 25px;
+    border-bottom: 2px solid #C4C4C4;
+}
+
+.additives .progress{
+    padding: 0;
+    background-color:#EFFFDA ;
+    height: 25px;
+    border-radius: 30px;
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.21);
+}
+.additives .progress-bar{
+    background-color:#84D41D ;
+    text-align: right;
+    padding: 0 8px 0 0;
+    font-size: 14px;
+    
+    
+}
+.additives .evaluation__title{
+    font-size: 14px;
+    color: #000;
+    font-weight: 400;
+    padding: 0;
+}
+.additives .evaluation__value{
+    font-size: 14px;
+    margin: 4px 0 0 0;
+    padding: 0;
+    text-align: right;
+}
+.additives  .additives__pros-cons{
+    padding: 22px 25px 30px 25px;
+    border-bottom: 1px solid #E4E4E4;
+}
+.additives  .pros__title{
+    font-size: 18px;
+    font-family: 'GadugiBold';
+    margin: 0 0 21px 0;
+}
+.additives .pros__item-link{
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.additives .pros__item > div{
+    margin: 0 7px 0 0;
+}
+.additives .pros__item > div img{
+    vertical-align: baseline;
+}
+.additives .pros__list > li + li{
+    margin: 11px 0 0 0;
+}
+.additives .pros__item-link:hover{
+    color: #84D41D;
+    font-family: 'GadugiBold';
+    font-size: 14px;
+}
+.additives .additives__pros{
+    padding: 0;
+}
+.additives .pros{
+    margin: 0 60px 0 0;
+    
+}
+.additives .product-card__btn{
+    padding: 16px 0 0 0;
+}
+.additives .additives__product-card .btn{
+    color: #fff;
+    font-family: 'GadugiBold';
+    font-size: 14px;
+    background-color: #FF9900;  
+    border-radius: 30px;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    
+}
+.additives .additives__product-card .btn svg:nth-child(1){
+    margin: 0 0 0 4px;
+}
+.additives .additives__product-card .btn svg:nth-child(2){
+    margin: 0 -19px 0 0;
+}
+
+
+.footer__content .footer__up{
+    background-color: #fff;
+    width: 100%;
+    padding: 12px 0 12px 36px;
+}
+.footer__content .footer__down{
+    background-color: #434343;
+    width: 100%;
+    padding: 24px 133px 20px 133px;
+}
+.footer__content .footer__down__title{
+    color: #fff;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.footer__content .footer__down__title{
+    text-align: right;
+}
+.footer__content .footer__down__subtitle{
+    text-align: center;
+    color: #6D6D6D;
+    font-size: 10px;
+}
+.footer__content .subtitle-ps{
+    margin-top: 5px;
+}
+
+.product-card__two .about-product__ranking::before{
+    width: 13px;
+    height: 30px;
+    transform: rotate(0deg);
+}
+.product-card__three .about-product__ranking::before{
+    width: 13px;
+    height: 30px;
+    transform: rotate(-3deg);
+}
+.product-card__three .about-product__ranking::after{
+    content: "";
+    position: absolute;
+    width: 13px;
+    height: 30px;
+    transform: rotate(-29deg);
+    background-color: #fff;
+    left: -8px;
+    top: 43px;
+}
+.product-card__four .about-product__ranking::before{
+    width: 13px;
+    height: 30px;
+    transform: rotate(-3deg);
+}
+.product-card__four .about-product__ranking::after{
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 30px;
+    transform: rotate(-48deg);
+    background-color: #fff;
+    left: 2px;
+    top: 60px;
+}
+.product-card__five .about-product__ranking::before{
+    width: 13px;
+    height: 30px;
+    transform: rotate(-3deg);
+}
+.product-card__five .about-product__ranking::after{
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 36px;
+    transform: rotate(-61deg);
+    background-color: #fff;
+    left: 4px;
+    top: 58px;
+}
+.product-card__two  .additives__about-product img{
+    margin: 0 30px 0 35px;
+}
+
+.product-card__three  .additives__about-product img,
+.product-card__four  .additives__about-product img{
+    margin: 0 0 0 35px;
+}
+
+.product-card__five  .additives__about-product img{
+    margin: 0 0 0 32px;
+}
+
+
+
+
+
