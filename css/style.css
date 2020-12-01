@@ -617,11 +617,11 @@ p{
         padding: 0;
     }
     .preview .look-for__absolut-img{
-        left: 0;
+        left: 30px;
     }
     
     .preview .avoid__absolut-img{
-        left: 15px;
+        left: 30px;
     }
     .preview .img-product{
         text-align: left;
@@ -696,8 +696,19 @@ p{
         margin-top: 10px;
     }
     .product-card__two .additives__about-product img {
-        width: 32px;
-        height: 61px;
+        width: 45px;
+        height: 90px;
+    }
+    .product-card__four .additives__about-product img {
+        width: 61px;
+        height: 90px;
+    }
+    .product-card__five .additives__about-product img {
+        width: 50px;
+        height: 89px;
+    }
+    .preview .look-for-avoid__title{
+        padding: 0 0 0 40px;
     }
     
 }
