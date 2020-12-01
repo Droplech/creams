@@ -683,6 +683,22 @@ p{
     .footer__content .footer__down{
         padding: 24px 25px 20px 25px;
     }
+    .additives .ranking-wrapper__title, .additives .grade__subtitle {
+        font-family: 'Gadugi';
+        font-weight: 400;
+    }
+    .additives .grade__title {
+        margin-bottom: 12px;
+    }
+    .additives__about-product img {
+        width: 82px;
+        height: 82px;
+        margin-top: 10px;
+    }
+    .product-card__two .additives__about-product img {
+        width: 32px;
+        height: 61px;
+    }
     
 }
 
