@@ -710,7 +710,9 @@ p{
     .preview .look-for-avoid__title{
         padding: 0 0 0 40px;
     }
-    
+    .preview .customer-review__link{
+        text-align: center;
+    }
 }
 
 
