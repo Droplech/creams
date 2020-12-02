@@ -767,6 +767,9 @@ p{
     .preview .customer-review__link{
         text-align: center;
     }
+    .preview .preview__title{
+        padding: 0 22px;
+    }
 }
 
 
