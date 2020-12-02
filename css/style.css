@@ -1,26 +1,57 @@
-/*
-* Prefixed by https://autoprefixer.github.io
-* PostCSS: v7.0.29,
-* Autoprefixer: v9.7.6
-* Browsers: last 6 version
-*/
-
-@font-face{
-    font-family: 'Gadugi';
-    src: url('../шрифты/GADUGI_0.TTF') format('truetype');
-}
-@font-face{
-    font-family: 'GadugiBold';
-    src: url('../шрифты/GADUGIB_0.TTF') format('truetype');
-}
-@font-face{
+@font-face {
     font-family: 'Akademische';
-    src: url('../шрифты/Akademische_schmalfette.ttf') format('truetype');
+    src: url('../шрифты/Akademische/Akademischeschmalfette.eot');
+    src: url('../шрифты/Akademische/Akademischeschmalfette.eot?#iefix') format('embedded-opentype'),
+        url('../шрифты/Akademische/Akademischeschmalfette.woff2') format('woff2'),
+        url('../шрифты/Akademische/Akademischeschmalfette.woff') format('woff'),
+        url('../шрифты/Akademische/Akademischeschmalfette.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
-@font-face{
-    font-family: 'Times_New_Roman';
-    src: url('../шрифты/Times_New_Roman.ttf') format('truetype');
+
+
+@font-face {
+    font-family: 'Gadugi';
+    src: url('../шрифты/gadugi/Gadugi.eot');
+    src: url('../шрифты/gadugi/Gadugi.eot?#iefix') format('embedded-opentype'),
+        url('../шрифты/gadugi/Gadugi.woff2') format('woff2'),
+        url('../шрифты/gadugi/Gadugi.woff') format('woff'),
+        url('../шрифты/gadugi/Gadugi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+
+
+@font-face {
+    font-family: 'GadugiBold';
+    src: url('../шрифты/gadugiBold/Gadugi-Bold.eot');
+    src: url('../шрифты/gadugiBold/Gadugi-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../шрифты/gadugiBold/Gadugi-Bold.woff2') format('woff2'),
+        url('../шрифты/gadugiBold/Gadugi-Bold.woff') format('woff'),
+        url('../шрифты/gadugiBold/Gadugi-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+@font-face {
+    font-family: 'Times New Roman';
+    src: url('../шрифты/timsnewroman/TimesNewRomanPSMT.eot');
+    src: url('../шрифты/timsnewroman/TimesNewRomanPSMT.eot?#iefix') format('embedded-opentype'),
+        url('../шрифты/timsnewroman/TimesNewRomanPSMT.woff2') format('woff2'),
+        url('../шрифты/timsnewroman/TimesNewRomanPSMT.woff') format('woff'),
+        url('../шрифты/timsnewroman/TimesNewRomanPSMT.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
 h1{
     font-family: 'Akademische'; 
     margin: 0;
@@ -46,8 +77,7 @@ p{
     padding: 0 102px;
 }
 .navbar{
-    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
-            box-shadow: 0 0 20px rgba(0,0,0,0.5)
+    box-shadow: 0 0 20px rgba(0,0,0,0.5)
 }
 .navbar-nav{
     margin-right: 103px;
@@ -76,9 +106,7 @@ p{
 .preview .preview__link{
     color: #3ACAF8;
     text-decoration: none;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
     font-size: 24px;
     font-family: 'Akademische';
 }
@@ -157,9 +185,7 @@ p{
 }
 .look-for-avoid__item::marker{
     color: #C4C4C4;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    justify-content: space-between;
 }
 .preview .look-for__img{
     margin: 10px 0 0 0 ;
@@ -242,8 +268,7 @@ p{
     position: relative;
     height: auto;
     padding: 0 0 30px 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
 }
 .additives .additives__container{
     position: relative;
@@ -277,11 +302,9 @@ p{
     background-color: #fff;
     border: 0.5px solid #9E9E9E;
     border-radius: 5px;
-    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 10px 0 18px 0;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     margin: 0 auto;
 }
 .additives .product-card__title{
@@ -368,8 +391,7 @@ p{
     background-color:#EFFFDA ;
     height: 25px;
     border-radius: 30px;
-    -webkit-box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.21);
-            box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.21);
+    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.21);
 }
 .additives .progress-bar{
     background-color:#84D41D ;
@@ -450,12 +472,8 @@ p{
     background-color: #FF9900;  
     border-radius: 30px;
     padding: 10px 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    justify-content: center;
     margin: 0 auto;
     
 }
@@ -497,25 +515,19 @@ p{
 .product-card__two .about-product__ranking::before{
     width: 13px;
     height: 30px;
-    -webkit-transform: rotate(0deg);
-        -ms-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
 }
 .product-card__three .about-product__ranking::before{
     width: 13px;
     height: 30px;
-    -webkit-transform: rotate(-3deg);
-        -ms-transform: rotate(-3deg);
-            transform: rotate(-3deg);
+    transform: rotate(-3deg);
 }
 .product-card__three .about-product__ranking::after{
     content: "";
     position: absolute;
     width: 13px;
     height: 30px;
-    -webkit-transform: rotate(-29deg);
-        -ms-transform: rotate(-29deg);
-            transform: rotate(-29deg);
+    transform: rotate(-29deg);
     background-color: #fff;
     left: -8px;
     top: 43px;
@@ -523,18 +535,14 @@ p{
 .product-card__four .about-product__ranking::before{
     width: 13px;
     height: 30px;
-    -webkit-transform: rotate(-3deg);
-        -ms-transform: rotate(-3deg);
-            transform: rotate(-3deg);
+    transform: rotate(-3deg);
 }
 .product-card__four .about-product__ranking::after{
     content: "";
     position: absolute;
     width: 18px;
     height: 30px;
-    -webkit-transform: rotate(-48deg);
-        -ms-transform: rotate(-48deg);
-            transform: rotate(-48deg);
+    transform: rotate(-48deg);
     background-color: #fff;
     left: 2px;
     top: 60px;
@@ -542,18 +550,14 @@ p{
 .product-card__five .about-product__ranking::before{
     width: 13px;
     height: 30px;
-    -webkit-transform: rotate(-3deg);
-        -ms-transform: rotate(-3deg);
-            transform: rotate(-3deg);
+    transform: rotate(-3deg);
 }
 .product-card__five .about-product__ranking::after{
     content: "";
     position: absolute;
     width: 18px;
     height: 36px;
-    -webkit-transform: rotate(-61deg);
-        -ms-transform: rotate(-61deg);
-            transform: rotate(-61deg);
+    transform: rotate(-61deg);
     background-color: #fff;
     left: 4px;
     top: 58px;
@@ -595,9 +599,7 @@ p{
     }
 
     .conclusion__img-product {
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
+        justify-content: center;
     }
     .additives .additives__title h1{
         font-size: 21px;
@@ -627,10 +629,7 @@ p{
         margin: 0;
     }
     .look-for-avoid{
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: reverse;
-            -ms-flex-direction: column-reverse;
-                flex-direction: column-reverse;
+        flex-direction: column-reverse;
     }
     .look-for-avoid__img{
         position: absolute;
@@ -687,8 +686,7 @@ p{
         right: 19%;
     }
     .additives__pros-cons{
-        -ms-flex-wrap: wrap;
-            flex-wrap: wrap;
+        flex-wrap: wrap;
     }
     .preview .customer-review__img__piple{
         margin: 0;
@@ -767,9 +765,6 @@ p{
     .preview .customer-review__link{
         text-align: center;
     }
-    .preview .preview__title{
-        padding: 0 22px;
-    }
 }
 
 
@@ -830,9 +825,7 @@ p{
     .product-card__two .about-product__ranking::before{
         width: 13px;
         height: 19px;
-        -webkit-transform: rotate(-13deg);
-            -ms-transform: rotate(-13deg);
-                transform: rotate(-13deg);
+        transform: rotate(-13deg);
     }
     .product-card__three .additives__about-product img{
         width: 66px;
@@ -841,9 +834,7 @@ p{
     .product-card__three .about-product__ranking::before {
         width: 15px;
         height: 26px;
-        -webkit-transform: rotate(-14deg);
-            -ms-transform: rotate(-14deg);
-                transform: rotate(-14deg);
+        transform: rotate(-14deg);
 
     }
     .product-card__four .additives__about-product img{
@@ -853,18 +844,14 @@ p{
     .product-card__four .about-product__ranking::before {
         width: 13px;
         height: 30px;
-        -webkit-transform: rotate(0deg);
-            -ms-transform: rotate(0deg);
-                transform: rotate(0deg);
+        transform: rotate(0deg);
     }
     .product-card__four .about-product__ranking::after {
         content: "";
         position: absolute;
         width: 13px;
         height: 21px;
-        -webkit-transform: rotate(-68deg);
-            -ms-transform: rotate(-68deg);
-                transform: rotate(-68deg);
+        transform: rotate(-68deg);
         background-color: #fff;
         left: -2px;
         top: 37px;
@@ -876,18 +863,14 @@ p{
     .product-card__five .about-product__ranking::before {
         width: 13px;
         height: 30px;
-        -webkit-transform: rotate(-3deg);
-            -ms-transform: rotate(-3deg);
-                transform: rotate(-3deg);
+        transform: rotate(-3deg);
     }
     .product-card__five .about-product__ranking::after {
         content: "";
         position: absolute;
         width: 10px;
         height: 29px;
-        -webkit-transform: rotate(-59deg);
-            -ms-transform: rotate(-59deg);
-                transform: rotate(-59deg);
+        transform: rotate(-59deg);
         background-color: #fff;
         left: 2px;
         top: 30px;
@@ -966,6 +949,7 @@ p{
         width: 34%;
     }
 }
+
 
 
 

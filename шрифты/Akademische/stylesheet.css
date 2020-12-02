@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Akademische schmalfette';
+    src: url('Akademischeschmalfette.eot');
+    src: url('Akademischeschmalfette.eot?#iefix') format('embedded-opentype'),
+        url('Akademischeschmalfette.woff2') format('woff2'),
+        url('Akademischeschmalfette.woff') format('woff'),
+        url('Akademischeschmalfette.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
