@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 6 version
+*/
+
 @font-face{
     font-family: 'Gadugi';
     src: url('../шрифты/GADUGI_0.TTF') format('truetype');
@@ -39,7 +46,8 @@ p{
     padding: 0 102px;
 }
 .navbar{
-    box-shadow: 0 0 20px rgba(0,0,0,0.5)
+    -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.5);
+            box-shadow: 0 0 20px rgba(0,0,0,0.5)
 }
 .navbar-nav{
     margin-right: 103px;
@@ -68,7 +76,9 @@ p{
 .preview .preview__link{
     color: #3ACAF8;
     text-decoration: none;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     font-size: 24px;
     font-family: 'Akademische';
 }
@@ -147,7 +157,9 @@ p{
 }
 .look-for-avoid__item::marker{
     color: #C4C4C4;
-    justify-content: space-between;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
 }
 .preview .look-for__img{
     margin: 10px 0 0 0 ;
@@ -230,7 +242,8 @@ p{
     position: relative;
     height: auto;
     padding: 0 0 30px 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 .additives .additives__container{
     position: relative;
@@ -264,9 +277,11 @@ p{
     background-color: #fff;
     border: 0.5px solid #9E9E9E;
     border-radius: 5px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     padding: 10px 0 18px 0;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin: 0 auto;
 }
 .additives .product-card__title{
@@ -353,7 +368,8 @@ p{
     background-color:#EFFFDA ;
     height: 25px;
     border-radius: 30px;
-    box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.21);
+    -webkit-box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.21);
+            box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.21);
 }
 .additives .progress-bar{
     background-color:#84D41D ;
@@ -434,8 +450,12 @@ p{
     background-color: #FF9900;  
     border-radius: 30px;
     padding: 10px 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin: 0 auto;
     
 }
@@ -477,19 +497,25 @@ p{
 .product-card__two .about-product__ranking::before{
     width: 13px;
     height: 30px;
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+            transform: rotate(0deg);
 }
 .product-card__three .about-product__ranking::before{
     width: 13px;
     height: 30px;
-    transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+        -ms-transform: rotate(-3deg);
+            transform: rotate(-3deg);
 }
 .product-card__three .about-product__ranking::after{
     content: "";
     position: absolute;
     width: 13px;
     height: 30px;
-    transform: rotate(-29deg);
+    -webkit-transform: rotate(-29deg);
+        -ms-transform: rotate(-29deg);
+            transform: rotate(-29deg);
     background-color: #fff;
     left: -8px;
     top: 43px;
@@ -497,14 +523,18 @@ p{
 .product-card__four .about-product__ranking::before{
     width: 13px;
     height: 30px;
-    transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+        -ms-transform: rotate(-3deg);
+            transform: rotate(-3deg);
 }
 .product-card__four .about-product__ranking::after{
     content: "";
     position: absolute;
     width: 18px;
     height: 30px;
-    transform: rotate(-48deg);
+    -webkit-transform: rotate(-48deg);
+        -ms-transform: rotate(-48deg);
+            transform: rotate(-48deg);
     background-color: #fff;
     left: 2px;
     top: 60px;
@@ -512,14 +542,18 @@ p{
 .product-card__five .about-product__ranking::before{
     width: 13px;
     height: 30px;
-    transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+        -ms-transform: rotate(-3deg);
+            transform: rotate(-3deg);
 }
 .product-card__five .about-product__ranking::after{
     content: "";
     position: absolute;
     width: 18px;
     height: 36px;
-    transform: rotate(-61deg);
+    -webkit-transform: rotate(-61deg);
+        -ms-transform: rotate(-61deg);
+            transform: rotate(-61deg);
     background-color: #fff;
     left: 4px;
     top: 58px;
@@ -561,7 +595,9 @@ p{
     }
 
     .conclusion__img-product {
-        justify-content: center;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
     }
     .additives .additives__title h1{
         font-size: 21px;
@@ -591,7 +627,10 @@ p{
         margin: 0;
     }
     .look-for-avoid{
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
     }
     .look-for-avoid__img{
         position: absolute;
@@ -648,7 +687,8 @@ p{
         right: 19%;
     }
     .additives__pros-cons{
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .preview .customer-review__img__piple{
         margin: 0;
@@ -787,7 +827,9 @@ p{
     .product-card__two .about-product__ranking::before{
         width: 13px;
         height: 19px;
-        transform: rotate(-13deg);
+        -webkit-transform: rotate(-13deg);
+            -ms-transform: rotate(-13deg);
+                transform: rotate(-13deg);
     }
     .product-card__three .additives__about-product img{
         width: 66px;
@@ -796,7 +838,9 @@ p{
     .product-card__three .about-product__ranking::before {
         width: 15px;
         height: 26px;
-        transform: rotate(-14deg);
+        -webkit-transform: rotate(-14deg);
+            -ms-transform: rotate(-14deg);
+                transform: rotate(-14deg);
 
     }
     .product-card__four .additives__about-product img{
@@ -806,14 +850,18 @@ p{
     .product-card__four .about-product__ranking::before {
         width: 13px;
         height: 30px;
-        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+            -ms-transform: rotate(0deg);
+                transform: rotate(0deg);
     }
     .product-card__four .about-product__ranking::after {
         content: "";
         position: absolute;
         width: 13px;
         height: 21px;
-        transform: rotate(-68deg);
+        -webkit-transform: rotate(-68deg);
+            -ms-transform: rotate(-68deg);
+                transform: rotate(-68deg);
         background-color: #fff;
         left: -2px;
         top: 37px;
@@ -825,14 +873,18 @@ p{
     .product-card__five .about-product__ranking::before {
         width: 13px;
         height: 30px;
-        transform: rotate(-3deg);
+        -webkit-transform: rotate(-3deg);
+            -ms-transform: rotate(-3deg);
+                transform: rotate(-3deg);
     }
     .product-card__five .about-product__ranking::after {
         content: "";
         position: absolute;
         width: 10px;
         height: 29px;
-        transform: rotate(-59deg);
+        -webkit-transform: rotate(-59deg);
+            -ms-transform: rotate(-59deg);
+                transform: rotate(-59deg);
         background-color: #fff;
         left: 2px;
         top: 30px;
@@ -911,7 +963,6 @@ p{
         width: 34%;
     }
 }
-
 
 
 
